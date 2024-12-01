@@ -13,7 +13,7 @@ export function DeleteKeyModal({ isOpen, onClose, onConfirm, apiKey }) {
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle className="text-xl font-semibold">
-            Delete API Key '{apiKey?.name}'
+            Delete API Key &apos;{apiKey?.name}&apos;
           </DialogTitle>
         </DialogHeader>
         <div className="space-y-4 py-4">
